@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const exameController = require('../controllers/exameController');
+const exameController = require('../controles/controle_exame');
 
 // Rota para criar um novo exame
 router.post('/exames', exameController.criarExame);

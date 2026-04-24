@@ -1,4 +1,4 @@
-const Exame = require('../models/Exame');
+const Exame = require('../modelos/Exame');
 
 // Gerar protocolo: data (YYYYMMDD) + sequencial simples
 const gerarProtocolo = () => {
